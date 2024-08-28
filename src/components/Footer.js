@@ -26,7 +26,7 @@ const Footer = () => {
         })}
       </ul>
       <p className="copyright">
-        copyright &copy; Backroads travel tours company
+        copyright &copy; Jongsung(Jason) Yoo
         <span id="date"></span> all rights reserved
       </p>
     </footer>

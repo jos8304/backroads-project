@@ -1,13 +1,15 @@
-import tour1 from "./images/tour-1.jpeg";
-import tour2 from "./images/tour-2.jpeg";
-import tour3 from "./images/tour-3.jpeg";
-import tour4 from "./images/tour-4.jpeg";
+import shortit from "./images/shortit.jpg";
+import coplate from "./images/coplate.jpg";
+import codeitmall from "./images/codeitmall.jpg";
+// import tour4 from "./images/tour-4.jpeg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
-  { id: 2, href: "#about", text: "about" },
-  { id: 3, href: "#services", text: "services" },
-  { id: 4, href: "#tours", text: "tours" },
+  { id: 2, href: "#about", text: "About Me" },
+  { id: 3, href: "#skills", text: "Skills" },
+  { id: 4, href: "#experience", text: "Experience" },
+  { id: 5, href: "#personal_project", text: "Project" },
+  { id: 6, href: "#education", text: "Education & Certifications" },
 ];
 
 export const socialLinks = [
@@ -22,71 +24,47 @@ export const socialLinks = [
 export const services = [
   {
     id: 1,
-    icon: "fas fa-wallet fa-fw",
-    title: "saving money",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-solid fa-terminal",
+    title: "Web Programming Languages",
+    text: "Python, Django, PHP, JavaScript, HTML, React,NEXT.js, MongoDB",
   },
   {
     id: 2,
-    icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
-    text: "orem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-solid fa-database",
+    title: "Database",
+    text: "MySQL, MSSQL.",
   },
   {
     id: 3,
-    icon: "fas fa-socks fa-fw",
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fas fa-solid fa-server",
+    title: "Development tools and server",
+    text: "Visual Studio ,PyCharm,Windows server 2008 R2, GitHub, Docker ",
   },
 ];
 
 export const tours = [
   {
     id: 1,
-    image: tour1,
-    date: "october 1th, 2020",
-    title: "best of java",
-    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              vitae tempore voluptatum maxime reprehenderit eum quod
-              exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 6,
-    price: "from $1400",
+    image: coplate,
+    title: "Restaurant Review Site",
+    info: `Implemented login, sign-up, review, and member following functions.`,
+    location: "Python 3.7, Django 2.2",
+    href: "https://jyou8304.pythonanywhere.com/",
   },
   {
     id: 2,
-    image: tour2,
-    date: "october 1th, 2020",
-    title: "best of java",
-    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              vitae tempore voluptatum maxime reprehenderit eum quod
-              exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 6,
-    price: "from $1400",
+    image: codeitmall,
+    title: "CodeItMall",
+    info: `Developed an e-commerce site.`,
+    location: "React, JavaScript",
+    href: "https://codeitmall-azure.vercel.app/",
   },
   {
     id: 3,
-    image: tour3,
-    date: "october 1th, 2020",
-    title: "best of java",
-    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              vitae tempore voluptatum maxime reprehenderit eum quod
-              exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 6,
-    price: "from $1400",
-  },
-  {
-    id: 4,
-    image: tour4,
-    date: "october 1th, 2020",
-    title: "best of java",
-    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              vitae tempore voluptatum maxime reprehenderit eum quod
-              exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 6,
-    price: "from $1400",
+    image: shortit,
+    title: "URL Shortener",
+    info: `Developed a site that converts long URLs to short URLs.`,
+    location: "NEXT.js,MongoDB",
+    href: "https://shortit-azure.vercel.app/",
   },
 ];

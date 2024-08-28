@@ -17,7 +17,7 @@ const Navber = () => {
             return (
               <li key={link.id}>
                 <a href={link.href} className="nav-link">
-                  {link.text}
+                  {link.text} |
                 </a>
               </li>
             );
