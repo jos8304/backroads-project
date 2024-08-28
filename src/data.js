@@ -26,13 +26,13 @@ export const services = [
     id: 1,
     icon: "fas fa-solid fa-terminal",
     title: "Web Programming Languages",
-    text: "Python, Django, PHP, JavaScript, HTML, React,NEXT.js, MongoDB",
+    text: "Python, Django, PHP, JavaScript, HTML, React,NEXT.js",
   },
   {
     id: 2,
     icon: "fas fa-solid fa-database",
     title: "Database",
-    text: "MySQL, MSSQL.",
+    text: "MySQL, MSSQL, MongoDB",
   },
   {
     id: 3,
