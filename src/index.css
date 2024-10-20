@@ -572,3 +572,78 @@ section.certifications {
 .certifications-item p {
   margin: 5px 0;
 }
+
+/* 교육 섹션 스타일 */
+.education,
+.certifications {
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.education h2,
+.certifications h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.education-item,
+.certifications-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 5px solid #47acb9;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.education-item p,
+.certifications-item p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.education-item strong {
+  font-size: 1.2rem;
+  color: #47acb9;
+}
+
+.education-item em {
+  font-style: italic;
+  color: #555;
+}
+
+.education-date {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: right;
+}
+
+/* 버튼 스타일 */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #47acb9;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #38919e;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .education-item,
+  .certifications-item {
+    padding: 15px;
+  }
+}
