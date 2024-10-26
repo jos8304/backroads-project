@@ -45,18 +45,31 @@ const Experience = () => {
           </p>
           <ul>
             <li>
-              Provided maintenance, technical support, and troubleshooting for
-              desktop computers, printers, telephones, and other devices to
-              ensure effective use of technology
+              Retrieved and analyzed weekly and monthly sales and inventory data
+              from the database, creating comprehensive reports for the
+              purchasing team and sales staff. These reports enabled informed
+              decision-making on stock levels, sales trends, and inventory
+              optimization.
             </li>
             <li>
-              Managed and assisted with the maintenance of Microsoft Navision
-              (NAV) and HandApps software
+              Developed and maintained data pipelines within Microsoft Navision
+              (NAV) and HandApps software to ensure accurate, up-to-date
+              reporting for stakeholders.
             </li>
-            <li>Performed Active Directory Domain Services and management</li>
             <li>
-              Worked in a team-based environment and communicated effectively
-              and respectfully with supervisors and management
+              Utilized SQL queries and data processing techniques to streamline
+              report generation, reducing time spent on manual data entry and
+              enhancing data accuracy.
+            </li>
+            <li>
+              Provided technical support and troubleshooting for desktop
+              computers, printers, and telecommunication devices, ensuring
+              minimal downtime and efficient technology use within the
+              organization.
+            </li>
+            <li>
+              Managed Active Directory for user account maintenance, access
+              controls, and compliance.
             </li>
           </ul>
         </article>
