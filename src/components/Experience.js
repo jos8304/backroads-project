@@ -7,7 +7,7 @@ const Experience = () => {
 
       <div className="section-center about-center">
         <article className="experience">
-          <h2>Project Engineer, Nexien Inc</h2>
+          <h2>Project / Software Engineer, Nexien Inc</h2>
           <p>
             <strong>August 2021 – Present</strong>
           </p>
@@ -39,7 +39,7 @@ const Experience = () => {
           </ul>
         </article>
         <article className="experience">
-          <h2>IT Associate, Rhee Bros Inc</h2>
+          <h2>System Administrator, Rhee Bros Inc</h2>
           <p>
             <strong>November 2020 – August 2021</strong>
           </p>
@@ -75,7 +75,7 @@ const Experience = () => {
         </article>
         <article className="experience">
           <h2>
-            IT Staff, Korean-American Scientists and Engineers Association
+            Web Developer, Korean-American Scientists and Engineers Association
             (KSEA)
           </h2>
           <p>
